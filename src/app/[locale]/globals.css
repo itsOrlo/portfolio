@@ -1,0 +1,125 @@
+:root {
+  --bg: 0 0% 4%;
+  --surface: 0 0% 8%;
+  --text: 0 0% 96%;
+  --muted: 0 0% 53%;
+  --stroke: 0 0% 12%;
+  --accent: 0 0% 96%;
+  
+  --font-body: var(--font-inter), sans-serif;
+  --font-display: var(--font-space), serif; /* Usaremos space grotesk como fallback si instrument no carga */
+}
+
+[data-theme='light'] {
+  --bg: 0 0% 98%;
+  --surface: 0 0% 94%;
+  --text: 0 0% 4%;
+  --muted: 0 0% 40%;
+  --stroke: 0 0% 88%;
+  --accent: 0 0% 10%;
+}
+
+/* Override with Next.js font variables */
+.font-display {
+  font-family: var(--font-display), serif;
+  font-style: italic;
+}
+
+.font-body {
+  font-family: var(--font-body), sans-serif;
+}
+
+:root {
+  --background-hsl: var(--bg);
+  --surface-hsl: var(--surface);
+  --text-primary-hsl: var(--text);
+  --muted-hsl: var(--muted);
+  --stroke-hsl: var(--stroke);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: hsl(var(--bg));
+  color: hsl(var(--text));
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-bg { background-color: hsl(var(--bg)); }
+.text-text-primary { color: hsl(var(--text)); }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Custom Animations */
+@keyframes scroll-down {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
+@keyframes role-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.accent-gradient {
+  background: linear-gradient(90deg, #89AACC 0%, #4E85BF 100%);
+  background-size: 200% 200%;
+  animation: gradient-shift 6s ease infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--bg));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--stroke));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted));
+}
+
+/* Utilities */
+.blur-in {
+  filter: blur(10px);
+  opacity: 0;
+}
+
+.name-reveal {
+  overflow: hidden;
+}

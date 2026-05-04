@@ -1,0 +1,143 @@
+.navWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  background-color: hsl(var(--surface));
+  border: 1px solid hsla(var(--text-primary-hsl), 0.1);
+  backdrop-filter: blur(12px);
+  padding: 0.5rem;
+  border-radius: 9999px;
+  transition: box-shadow 0.3s ease;
+}
+
+.scrolled {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.logoGroup {
+  padding: 0 0.5rem;
+}
+
+.logoRing {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  padding: 1px;
+  background: linear-gradient(90deg, #89AACC 0%, #4E85BF 100%);
+  transition: transform 0.3s ease;
+}
+
+.logoGroup:hover .logoRing {
+  transform: scale(1.1) rotate(180deg);
+}
+
+.logoInner {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(var(--bg));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.8rem;
+  color: hsl(var(--text));
+}
+
+.divider {
+  width: 1px;
+  height: 1.25rem;
+  background-color: hsl(var(--stroke));
+  margin: 0 0.5rem;
+}
+
+.links {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: hsl(var(--muted));
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: hsl(var(--text));
+  background-color: hsla(var(--stroke-hsl), 0.5);
+}
+
+.toggles {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.themeToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: hsl(var(--muted));
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.themeToggle:hover {
+  background-color: hsla(var(--stroke-hsl), 0.5);
+  color: hsl(var(--text));
+  transform: scale(1.1);
+}
+
+.sayHi {
+  position: relative;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: hsl(var(--text));
+  overflow: hidden;
+}
+
+.sayHiInner {
+  position: relative;
+  z-index: 1;
+}
+
+.sayHiBg {
+  position: absolute;
+  inset: 0;
+  background-color: hsla(var(--stroke-hsl), 0.5);
+  transition: background 0.3s ease;
+}
+
+.sayHi:hover .sayHiBg {
+  background: linear-gradient(90deg, #89AACC 0%, #4E85BF 100%);
+}
+
+@media (max-width: 640px) {
+  .divider:first-of-type {
+    display: none;
+  }
+  
+  .links {
+    display: none;
+  }
+}

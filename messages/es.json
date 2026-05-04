@@ -1,0 +1,233 @@
+{
+  "Metadata": {
+    "title": "Orlidan Montesdeoca | Consultor en Tecnología & Automatización",
+    "description": "Especialista en escalabilidad empresarial mediante automatización inteligente, infraestructura Docker y soluciones Open Source."
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "work": "Proyectos",
+    "about": "Sobre Mí",
+    "contact": "Contáctame ↗",
+    "themeToggle": "Cambiar tema"
+  },
+  "Hero": {
+    "eyebrow": "Portfolio Profesional",
+    "roles": {
+      "prefix": "Un experto en",
+      "items": ["Business Technology", "Automation Expert", "Data Analyst", "Open Source Advocate"],
+      "suffix": "enfocado en resultados."
+    },
+    "description": "Ayudo a empresas a escalar mediante la automatización inteligente, optimizando procesos y conectando la tecnología con los objetivos de negocio.",
+    "buttons": {
+      "projects": "Ver Proyectos",
+      "cv": "Descargar CV"
+    },
+    "scroll": "SCROLL"
+  },
+  "About": {
+    "eyebrow": "Sobre Mí",
+    "title": "Business {technology} & {automation}",
+    "technology": "Technology",
+    "automation": "Automation",
+    "description": "Consultor tecnológico con un enfoque integral que une el mundo del IT, el marketing y la estrategia de negocios. Ayudo a empresas a escalar mediante la automatización inteligente, optimizando su infraestructura con Docker y adaptando soluciones de código abierto a sus necesidades específicas. Mi objetivo es transformar datos complejos en ventajas competitivas reales.",
+    "education": {
+      "degree": "Ingeniero en Tecnologías de la Información",
+      "university": "Pontificia Universidad Católica del Ecuador",
+      "period": "2020 - 2025"
+    },
+    "skills": [
+      "n8n (Experto)", "Python", "Docker", "Ollama", "GCP", 
+      "Business Analysis", "Open Source", "Power BI", "SQL", 
+      "LLMs (GPT, Claude, Qwen, Gemini)", "Flask", "RAGFlow"
+    ]
+  },
+  "Experience": {
+    "eyebrow": "Trayectoria",
+    "title": "Trayectoria {italic}",
+    "italic": "Profesional",
+    "items": [
+      {
+        "id": 0,
+        "company": "IONOS HUB",
+        "position": "Director Ejecutivo",
+        "period": "Actualidad",
+        "description": "Gestión de equipos especializados en el desarrollo de tecnologías de automatización y soluciones de IA.",
+        "achievements": [
+          "Liderazgo estratégico en proyectos de automatización empresarial",
+          "Gestión de equipos multidisciplinarios de desarrollo",
+          "Arquitectura de soluciones basadas en IA y orquestación de datos",
+          "Desarrollo de visión tecnológica para el ecosistema IONOS HUB"
+        ]
+      },
+      {
+        "id": 1,
+        "company": "Strattos",
+        "position": "Business Analyst",
+        "period": "Mayo 2025 - Actualidad",
+        "description": "Liderazgo en la implementación de ecosistemas de automatización e IA para optimizar procesos de marketing y operaciones.",
+        "achievements": [
+          "Diseño de 22 flujos en n8n, Zapier y RAGFlow para agentes de IA",
+          "Despliegue de APIs personalizadas en Flask sobre Google Cloud Run",
+          "Administración de servidores Bare Metal con Docker y Portainer",
+          "Implementación de orquestación de LLMs (GPT-4, Claude 3.5, LLaMA 3)"
+        ]
+      },
+      {
+        "id": 2,
+        "company": "Banco VisiónFund",
+        "position": "Analista de Datos área Auditoría",
+        "period": "Octubre 2024 - Mayo 2025",
+        "description": "Automatización de procesos de auditoría y análisis de riesgo crediticio mediante herramientas de BI y scripting.",
+        "achievements": [
+          "Creación de 32 macros VBA para limpieza y generación de reportes",
+          "Diseño de 12 dashboards interactivos en Power BI para seguimiento de auditoría",
+          "Ejecución de consultas SQL complejas para verificación de políticas de crédito",
+          "Procesos ETL de 12 fuentes distintas asegurando calidad de datos"
+        ]
+      },
+      {
+        "id": 3,
+        "company": "Banco de Alimentos Imbabura",
+        "position": "Analista Logístico e Inventario",
+        "period": "Noviembre 2023 - Marzo 2024",
+        "description": "Optimización de la cadena de suministro y gestión de recursos para impacto social.",
+        "achievements": [
+          "Gestión de inventario de +40 tipos de alimentos con trazabilidad completa",
+          "Planificación logística para distribución a +5 centros sociales",
+          "Desarrollo de sistema de monitoreo para activos móviles",
+          "Implementación de procesos de gestión de residuos y compostaje"
+        ]
+      }
+    ]
+  },
+  "Certifications": {
+    "eyebrow": "Credenciales",
+    "title": "Certificaciones {italic}",
+    "italic": "Expertas",
+    "items": [
+      {
+        "title": "Oracle Cloud Data Management",
+        "issuer": "Oracle",
+        "year": "2024 - 2025"
+      },
+      {
+        "title": "Especialización en Data Analytics",
+        "issuer": "San Ignacio University",
+        "year": "2025"
+      },
+      {
+        "title": "Anthropic API Certification",
+        "issuer": "Claude Academy",
+        "year": "2025"
+      }
+    ]
+  },
+  "Work": {
+    "eyebrow": "Casos de Éxito",
+    "title": "Proyectos {italic}",
+    "italic": "Destacados",
+    "badge": "Ver",
+    "items": [
+      {
+        "id": 1,
+        "title": "AI Automation Ecosystem",
+        "description": "Arquitectura escalable integrando GCP, n8n y WhatsApp Business API (WABA) para la orquestación de agentes de IA y flujos de comunicación masiva.",
+        "longDescription": "Este ecosistema permite la creación y despliegue de agentes personalizados con IA que interactúan en tiempo real con usuarios a través de WhatsApp. Utiliza n8n como motor de orquestación central, procesando datos en GCP y conectando con múltiples LLMs para ofrecer respuestas inteligentes y automatizar flujos de trabajo complejos.",
+        "link": "https://wa.me/593992249152",
+        "features": [
+          "Creación de agentes personalizados con IA",
+          "Orquestación de +22 flujos complejos",
+          "Integración nativa con WABA",
+          "Despliegue en contenedores Docker",
+          "Persistencia de datos en BigQuery"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Sistema de Facturación SRI",
+        "description": "Solución de facturación electrónica para empresas ecuatorianas con timbrado automático al SRI y notificaciones personalizadas.",
+        "longDescription": "Sistema robusto que automatiza todo el ciclo de facturación electrónica en Ecuador. Incluye la generación de XML firmados, consulta de autorización al SRI, generación de RIDE y envío automático de facturas personalizadas mediante SMTP.",
+        "link": "#",
+        "features": [
+          "Timbrado automático con el SRI",
+          "Generación y validación de XML",
+          "Envío masivo de facturas por SMTP",
+          "Dashboard de control empresarial",
+          "Lógica de reintentos y persistencia"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Análisis de Datos",
+        "description": "Dashboards interactivos avanzados en Power BI con integración de modelos relacionales, SQL y procesos ETL complejos.",
+        "longDescription": "Desarrollo de ecosistemas de BI enfocados en analítica descriptiva y visualización de históricos. Implementación de DAX avanzado para cálculos complejos, optimización de consultas SQL para extracción de datos y automatización de flujos ETL mediante Power Query para asegurar la integridad de modelos relacionales.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiNWE3OGY0YzEtNTJlNC00NzBlLTkwNzctZTIyMTcyMWM3MTMzIiwidCI6IjhkYmUxNDY5LWM3OWMtNGUyMS05ZDQzLWNhNjVkOWU5YzQ3NSIsImMiOjR9",
+        "features": [
+          "Manejo de DAX avanzado",
+          "Diseño de modelos relacionales",
+          "Optimización de consultas SQL",
+          "Procesos ETL y Power Query",
+          "Analítica descriptiva e históricos"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Dockerización e Infraestructura Cloud",
+        "description": "Implementación de sistemas robustos en VPS y servicios cloud utilizando Linux y orquestación con Docker y Portainer.",
+        "longDescription": "Especialista en la migración y despliegue de aplicaciones hacia infraestructuras escalables. Manejo integral de servidores Linux, adquisición y configuración de servicios cloud, y administración de contenedores mediante Docker. Implementación de Portainer para la gestión visual y eficiente de stacks tecnológicos complejos.",
+        "link": "#",
+        "features": [
+          "Despliegue de servicios en contenedores Docker",
+          "Gestión visual de infraestructura con Portainer",
+          "Configuración avanzada de servidores Linux/VPS",
+          "Implementación de arquitecturas cloud escalables",
+          "Adquisición y optimización de recursos en la nube"
+        ]
+      }
+    ],
+    "modal": {
+      "keyPoints": "Puntos Clave",
+      "code": "Código",
+      "demo": "Demo en Vivo"
+    }
+  },
+  "Contact": {
+    "title": "¿Hablamos de {italic}?",
+    "italic": "crecer tu negocio",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": {
+        "label": "Asunto",
+        "options": [
+          "Proyecto de automatización",
+          "Creación de agente IA",
+          "Análisis de datos",
+          "Despliegues e implementaciones",
+          "Asesoría"
+        ]
+      },
+      "extraMessage": "¿Desea agregar un mensaje adicional?",
+      "messagePlaceholder": "Cuéntame más sobre tu proyecto...",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": {
+        "title": "¡Mensaje Enviado!",
+        "text": "Gracias por contactarme, ya le responderemos lo antes posible.",
+        "reset": "Enviar otro mensaje"
+      }
+    },
+    "footer": {
+      "availability": "Disponible para proyectos"
+    }
+  },
+  "WhatsApp": {
+    "tooltip": "¿Hablamos?",
+    "message": "Hola Orlidan, vi tu portfolio y me gustaría contactarte."
+  },
+  "Loading": {
+    "label": "PORTFOLIO PROFESIONAL",
+    "words": ["Diseñar", "Orquestar", "Automatizar"]
+  }
+}

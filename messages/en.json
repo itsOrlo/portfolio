@@ -1,0 +1,233 @@
+{
+  "Metadata": {
+    "title": "Orlidan Montesdeoca | Business Technology & Automation Consultant",
+    "description": "Business scalability specialist through intelligent automation, Docker infrastructure, and Open Source solutions."
+  },
+  "Navbar": {
+    "home": "Home",
+    "experience": "Experience",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact Me ↗",
+    "themeToggle": "Toggle theme"
+  },
+  "Hero": {
+    "eyebrow": "Professional Portfolio",
+    "roles": {
+      "prefix": "An expert in",
+      "items": ["Business Technology", "Automation Expert", "Data Analyst", "Open Source Advocate"],
+      "suffix": "focused on results."
+    },
+    "description": "I help companies scale through intelligent automation, optimizing processes and connecting technology with business objectives.",
+    "buttons": {
+      "projects": "View Projects",
+      "cv": "Download CV"
+    },
+    "scroll": "SCROLL"
+  },
+  "About": {
+    "eyebrow": "About Me",
+    "title": "Business {technology} & {automation}",
+    "technology": "Technology",
+    "automation": "Automation",
+    "description": "Technology consultant with an integral approach that bridges the worlds of IT, marketing, and business strategy. I help companies scale through intelligent automation, optimizing their infrastructure with Docker and adapting open-source solutions to their specific needs. My goal is to transform complex data into real competitive advantages.",
+    "education": {
+      "degree": "IT Engineer",
+      "university": "Pontificia Universidad Católica del Ecuador",
+      "period": "2020 - 2025"
+    },
+    "skills": [
+      "n8n (Expert)", "Python", "Docker", "Ollama", "GCP", 
+      "Business Analysis", "Open Source", "Power BI", "SQL", 
+      "LLMs (GPT, Claude, Qwen, Gemini)", "Flask", "RAGFlow"
+    ]
+  },
+  "Experience": {
+    "eyebrow": "Trajectory",
+    "title": "Professional {italic}",
+    "italic": "Experience",
+    "items": [
+      {
+        "id": 0,
+        "company": "IONOS HUB",
+        "position": "Executive Director",
+        "period": "Present",
+        "description": "Management of specialized teams in the development of automation technologies and AI solutions.",
+        "achievements": [
+          "Strategic leadership in business automation projects",
+          "Management of multidisciplinary development teams",
+          "Architecture of AI-based solutions and data orchestration",
+          "Development of technological vision for the IONOS HUB ecosystem"
+        ]
+      },
+      {
+        "id": 1,
+        "company": "Strattos",
+        "position": "Business Analyst",
+        "period": "May 2025 - Present",
+        "description": "Leadership in the implementation of automation and AI ecosystems to optimize marketing and operations processes.",
+        "achievements": [
+          "Design of 22 flows in n8n, Zapier, and RAGFlow for AI agents",
+          "Deployment of custom APIs in Flask on Google Cloud Run",
+          "Bare Metal server administration with Docker and Portainer",
+          "Implementation of LLM orchestration (GPT-4, Claude 3.5, LLaMA 3)"
+        ]
+      },
+      {
+        "id": 2,
+        "company": "Banco VisiónFund",
+        "position": "Audit Data Analyst",
+        "period": "October 2024 - May 2025",
+        "description": "Automation of audit processes and credit risk analysis using BI tools and scripting.",
+        "achievements": [
+          "Creation of 32 VBA macros for cleaning and report generation",
+          "Design of 12 interactive dashboards in Power BI for audit tracking",
+          "Execution of complex SQL queries for credit policy verification",
+          "ETL processes from 12 different sources ensuring data quality"
+        ]
+      },
+      {
+        "id": 3,
+        "company": "Banco de Alimentos Imbabura",
+        "position": "Logistics and Inventory Analyst",
+        "period": "November 2023 - March 2024",
+        "description": "Supply chain optimization and resource management for social impact.",
+        "achievements": [
+          "Management of +40 types of food inventory with full traceability",
+          "Logistics planning for distribution to +5 social centers",
+          "Development of monitoring system for mobile assets",
+          "Implementation of waste management and composting processes"
+        ]
+      }
+    ]
+  },
+  "Certifications": {
+    "eyebrow": "Credentials",
+    "title": "Expert {italic}",
+    "italic": "Certifications",
+    "items": [
+      {
+        "title": "Oracle Cloud Data Management",
+        "issuer": "Oracle",
+        "year": "2024 - 2025"
+      },
+      {
+        "title": "Data Analytics Specialization",
+        "issuer": "San Ignacio University",
+        "year": "2025"
+      },
+      {
+        "title": "Anthropic API Certification",
+        "issuer": "Claude Academy",
+        "year": "2025"
+      }
+    ]
+  },
+  "Work": {
+    "eyebrow": "Success Stories",
+    "title": "Featured {italic}",
+    "italic": "Projects",
+    "badge": "View",
+    "items": [
+      {
+        "id": 1,
+        "title": "AI Automation Ecosystem",
+        "description": "Scalable architecture integrating GCP, n8n, and WhatsApp Business API (WABA) for AI agent orchestration and mass communication flows.",
+        "longDescription": "This ecosystem allows the creation and deployment of custom AI agents that interact in real-time with users via WhatsApp. It uses n8n as a central orchestration engine, processing data in GCP and connecting with multiple LLMs to offer intelligent responses and automate complex workflows.",
+        "link": "https://wa.me/593992249152",
+        "features": [
+          "Creation of custom AI agents",
+          "Orchestration of +22 complex flows",
+          "Native integration with WABA",
+          "Deployment in Docker containers",
+          "Data persistence in BigQuery"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "SRI Billing System",
+        "description": "Electronic billing solution for Ecuadorian companies with automatic stamping to SRI and custom notifications.",
+        "longDescription": "Robust system that automates the entire electronic billing cycle in Ecuador. Includes generating signed XML, authorization inquiry to SRI, RIDE generation, and automatic custom invoice delivery via SMTP.",
+        "link": "#",
+        "features": [
+          "Automatic stamping with SRI",
+          "XML generation and validation",
+          "SMTP bulk invoice delivery",
+          "Business control dashboard",
+          "Retry and persistence logic"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Data Analysis",
+        "description": "Advanced interactive dashboards in Power BI with integration of relational models, SQL, and complex ETL processes.",
+        "longDescription": "Development of BI ecosystems focused on descriptive analytics and historical visualization. Implementation of advanced DAX for complex calculations, SQL query optimization for data extraction, and ETL flow automation via Power Query to ensure relational model integrity.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiNWE3OGY0YzEtNTJlNC00NzBlLTkwNzctZTIyMTcyMWM3MTMzIiwidCI6IjhkYmUxNDY5LWM3OWMtNGUyMS05ZDQzLWNhNjVkOWU5YzQ3NSIsImMiOjR9",
+        "features": [
+          "Advanced DAX handling",
+          "Relational model design",
+          "SQL query optimization",
+          "ETL processes and Power Query",
+          "Descriptive and historical analytics"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Dockerization & Cloud Infrastructure",
+        "description": "Implementation of robust systems in VPS and cloud services using Linux and orchestration with Docker and Portainer.",
+        "longDescription": "Specialist in migrating and deploying applications to scalable infrastructures. Comprehensive management of Linux servers, acquisition and configuration of cloud services, and container administration via Docker. Implementation of Portainer for visual and efficient management of complex technological stacks.",
+        "link": "#",
+        "features": [
+          "Service deployment in Docker containers",
+          "Visual infrastructure management with Portainer",
+          "Advanced Linux/VPS server configuration",
+          "Implementation of scalable cloud architectures",
+          "Cloud resource acquisition and optimization"
+        ]
+      }
+    ],
+    "modal": {
+      "keyPoints": "Key Points",
+      "code": "Code",
+      "demo": "Live Demo"
+    }
+  },
+  "Contact": {
+    "title": "Let's talk about {italic}?",
+    "italic": "growing your business",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": {
+        "label": "Subject",
+        "options": [
+          "Automation project",
+          "AI agent creation",
+          "Data analysis",
+          "Deployments & implementations",
+          "Consulting"
+        ]
+      },
+      "extraMessage": "Do you want to add an additional message?",
+      "messagePlaceholder": "Tell me more about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": {
+        "title": "Message Sent!",
+        "text": "Thank you for contacting me, we will respond as soon as possible.",
+        "reset": "Send another message"
+      }
+    },
+    "footer": {
+      "availability": "Available for projects"
+    }
+  },
+  "WhatsApp": {
+    "tooltip": "Let's talk?",
+    "message": "Hi Orlidan, I saw your portfolio and would like to contact you."
+  },
+  "Loading": {
+    "label": "PROFESSIONAL PORTFOLIO",
+    "words": ["Design", "Orchestrate", "Automate"]
+  }
+}

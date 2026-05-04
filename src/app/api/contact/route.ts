@@ -11,17 +11,29 @@ export async function POST(request: Request) {
         'Content-Type': 'application/json' 
       },
       body: JSON.stringify(body),
+      // Añadimos un timeout corto para no dejar colgada la función
+      signal: AbortSignal.timeout(8000) 
     });
 
     if (!response.ok) {
-      throw new Error(`n8n responded with status: ${response.status}`);
+      const errorText = await response.text().catch(() => 'No error detail');
+      console.error(`n8n error: ${response.status} - ${errorText}`);
+      return NextResponse.json(
+        { success: false, message: `Error de n8n: ${response.status}` }, 
+        { status: response.status }
+      );
     }
 
     return NextResponse.json({ success: true });
-  } catch (error) {
+  } catch (error: any) {
     console.error("Error in contact API route:", error);
+    
+    let errorMessage = "Error al enviar el mensaje";
+    if (error.name === 'TimeoutError') errorMessage = "El servidor de n8n tardó demasiado en responder";
+    else if (error.message) errorMessage = error.message;
+
     return NextResponse.json(
-      { success: false, message: "Error al enviar el mensaje" }, 
+      { success: false, message: errorMessage }, 
       { status: 500 }
     );
   }

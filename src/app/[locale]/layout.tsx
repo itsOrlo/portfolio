@@ -50,6 +50,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${inter.variable} ${instrumentSerif.variable}`}>
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
             try {

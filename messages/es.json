@@ -27,9 +27,7 @@
   },
   "About": {
     "eyebrow": "Sobre Mí",
-    "title": "Business {technology} & {automation}",
-    "technology": "Technology",
-    "automation": "Automation",
+    "title": "<technology>Tecnología</technology> de Negocios & <automation>Automatización</automation>",
     "description": "Consultor tecnológico con un enfoque integral que une el mundo del IT, el marketing y la estrategia de negocios. Ayudo a empresas a escalar mediante la automatización inteligente, optimizando su infraestructura con Docker y adaptando soluciones de código abierto a sus necesidades específicas. Mi objetivo es transformar datos complejos en ventajas competitivas reales.",
     "education": {
       "degree": "Ingeniero en Tecnologías de la Información",
@@ -50,7 +48,7 @@
       {
         "id": 0,
         "company": "IONOS HUB",
-        "position": "Director Ejecutivo",
+        "position": "Gestor del proyecto",
         "period": "Actualidad",
         "description": "Gestión de equipos especializados en el desarrollo de tecnologías de automatización y soluciones de IA.",
         "achievements": [

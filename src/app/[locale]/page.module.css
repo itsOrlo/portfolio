@@ -319,7 +319,7 @@
   position: relative;
   min-height: 100vh;
   padding-top: 10rem;
-  overflow: hidden;
+  padding-bottom: 4rem;
 }
 
 .contactOverlay {

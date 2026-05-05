@@ -27,9 +27,7 @@
   },
   "About": {
     "eyebrow": "About Me",
-    "title": "Business {technology} & {automation}",
-    "technology": "Technology",
-    "automation": "Automation",
+    "title": "Business <technology>Technology</technology> & <automation>Automation</automation>",
     "description": "Technology consultant with an integral approach that bridges the worlds of IT, marketing, and business strategy. I help companies scale through intelligent automation, optimizing their infrastructure with Docker and adapting open-source solutions to their specific needs. My goal is to transform complex data into real competitive advantages.",
     "education": {
       "degree": "IT Engineer",
@@ -50,7 +48,7 @@
       {
         "id": 0,
         "company": "IONOS HUB",
-        "position": "Executive Director",
+        "position": "Project Manager",
         "period": "Present",
         "description": "Management of specialized teams in the development of automation technologies and AI solutions.",
         "achievements": [

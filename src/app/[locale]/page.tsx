@@ -266,7 +266,7 @@ export default function Home() {
                   <a href="https://www.instagram.com/its.or.lo/" target="_blank" rel="noopener noreferrer">
                     <Camera size={20} /> Instagram
                   </a>
-                  <a href="mailto:orlidan.montesdeoca@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <a href="mailto:orlo.montesdeoca@gmail.com" target="_blank" rel="noopener noreferrer">
                     <Mail size={20} /> Email
                   </a>
                 </div>
